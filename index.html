@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de tarefas</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header>
+        <h1>Agenda de tarefas</h1>
+    </header>
+    <form>
+        <input id="tarefaDia" type="text" placeholder="Tarefa do dia" required />
+        <button type="submit" id="myBtn">Adicionar tarefa</button>
+    </form>
+    <div id="favoritarSection" style="display: none;">
+        <p>Deseja priorizar essa tarefa?</p>
+        <button id="favoritarSim">Sim</button>
+        <button id="favoritarNao">Não</button>
+    </div>
+    <ul id="task-list"></ul>
+    <button class="clear-list">Limpar lista</button>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>

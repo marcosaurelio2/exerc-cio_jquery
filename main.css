@@ -1,0 +1,117 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5e6ca;
+    color: #4b2e1a;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #d9b89c;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    color: #3a2313;
+    margin: 0;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 2px solid #a67c52;
+    border-radius: 5px;
+    width: 70%;
+    font-size: 1em;
+}
+
+button {
+    background-color: #8c644a;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #6e4a33;
+}
+
+#favoritarSection {
+    background-color: #e3d3b2;
+    padding: 15px;
+    border: 2px solid #a67c52;
+    border-radius: 10px;
+    width: 80%;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+ul#task-list li button {
+        background-color: #b36c44;
+        color: #ffffff;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 0.8em;
+        width: auto; 
+        height: 25px; 
+        margin-left: 10px; 
+        transition: background-color 0.3s;
+    }
+    
+
+    ul#task-list li button:hover {
+        background-color: #8c5440;
+    }
+    
+    ul#task-list li{
+        list-style: none; 
+    padding: 0;
+    width: 80%;
+    background-color: #f5e6ca;
+    border: 2px solid #a67c52;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    }
+
+    ul#task-list li {
+        background-color: #d9b89c;
+        padding: 10px;
+        margin-bottom: 15px; 
+        border-radius: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 1em;
+    }
+
+    ul#task-list li.completed {
+        text-decoration: line-through; 
+        color: #7a5d44; 
+        opacity: 0.7; 
+    }
+    
+    
